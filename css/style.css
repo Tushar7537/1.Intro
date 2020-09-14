@@ -1,97 +1,134 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+img{
+	max-width: 100%;
 }
 
-header{
-    padding: 30px 0;
+body{
+	margin: 0;
+}
+.wrapper{
+    width: 1200px;
+    margin: auto;
     overflow: hidden;
 }
-.container{
-    width: 900px;
-    margin: auto;
+header{
+    box-shadow: 5px 20px 21px #decfcf2b;
+    padding: 5px 0;
 }
 .logo{
-    width: 30%;
+    width: 20%;
     float: left;
 }
 .logo img{}
 nav{
-    width: 70%;
     float: left;
+    width: 80%;
 }
 nav ul{
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
 }
-nav ul li{}
+nav ul li{
+    list-style-type: none;
+    /* float: right; */
+    display: inline-block;
+    padding: 10px 20px;
+}
 nav ul li a{
+    font-size: 21px;
     text-decoration: none;
-    padding-left: 20px;
-    color: black;
+    color: #3b506c;
 }
 
-.banner-section{
-    text-align: center;
-    padding: 4px 0;
+nav ul li a:hover{
+color: #0c66ff;
 }
-.heading-part{
-    /* margin: auto; */
+
+section{
+
 }
-.parth1{
-    font-size: 50px;
+.about-section{
+	text-align: center; 
+	padding: 50px 0;
 }
-.heading-part h1{
+.about-section h1{
+	font-size: 80px;
+	color: #3b506c;max-width: 850px;
+	margin: 0 auto;
+}
+.about-section p{
+	margin: 0;
+	font-size: 20px;
+	color: #3b506c;
+}
+
+.about-section h1 span{
+	color: #0c66ff;
+	text-transform: uppercase;
+}
+
+section img{
+	margin: auto;
+	display: block;
+	max-width: 500px;
+}
+
+.feature-section{
+
+    padding: 100px 0;
+}
+
+.column{width: 50%;float: left;}
+
+.feature{padding: 20px;}
+
+.feature h2{color: #3b506c;font-size: 60px;margin: 0;}
+.feature h2 span{
+	color:#F25767;
+}
+
+.feature p{
+	 margin: 0;
     font-size: 20px;
-}
-.banner-image{
-  
-}
-.banner-image img{
-    max-width: 50%;
+    color: #3b506c;
 }
 
-.article-section{
-	   
-
-}
-
-.article1{
-
-}
-
-.artical p{
-
-}
-.article2{
-
+.align-right{
+	text-align:right;
 }
 
 
 
-.post img{
+.blog-section{
+
+}
+
+.col1{
 	width: 33.33%;
-	height: 400px;
-	margin:0;
-	padding: 0;
 	float: left;
-	padding:10px;
-
-
+	box-sizing: border-box;
 }
 
-.post img1{
-background: #eee:;
+.blog{background: #ffd5e3;margin: 10px;padding: 20px;}
 
-}
-.img2{
-	background-color: red;
-}
-.img3{
+.blog img{width: 300px;height: 300px;}
 
-	background: green;
-	
+.blog h3{color: #3b506c;font-size: 22px;margin: 0;}
+.blog p{
+	font-size: 18px;
+	color: #3b506c;
+	margin: 0;
+	margin-bottom: 5px;
 }
 
+.red{
+	background: #FFF7E8;
+}
+
+.green{
+	background: #EBF9F4;
+}
+
+.yellow{
+	background: #FDEBED;
+}
